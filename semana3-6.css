@@ -1,0 +1,43 @@
+p.zoom{
+    font-size: 14px;
+    color: blue;
+    text-align: justify;
+    width: 250px;
+    height: auto;
+    -moz-transition: font-size 300ms linear 0s;
+    -webkit-transition: font-size 300ms linear 0s;
+    transition: font-size 300ms linear 0s;
+}
+
+p.zoom:hover{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+img.growth{
+    width: 150px;
+    height: 130px;
+    border: 1px solid;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: 2s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.5s;
+
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.5s;
+
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0.5s;
+}
+
+img.growth:hover{
+    width: 250px;
+    height: 230px;
+    border: 2px solid;
+}
